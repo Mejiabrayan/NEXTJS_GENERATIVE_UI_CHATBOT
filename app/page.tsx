@@ -1,11 +1,10 @@
 'use client';
 import { useState } from 'react';
-import { ClientMessage } from '../lib/chat/actions';
+import { ClientMessage } from '@/lib/chat/actions';
 import { useActions, useUIState } from 'ai/rsc';
 import { nanoid } from 'nanoid';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { User, Bot } from 'lucide-react';
 import { IconOpenAI, IconUser } from '@/components/ui/icons';
 
 export default function Home() {
